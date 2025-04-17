@@ -40,20 +40,33 @@
               placeholder="Czego szukasz?"
               class="search-bar"
             />
-            <input
-              type="text"
-              placeholder="Wszystkie kategorie"
-              class="categories-bar"
-            />
+            <form class="categories">
+              <label for="kategorie" Kategirie></label>
+              <select name="Kategorie" id="kategorie">
+                <option value="Elektronika">Elektronika</option>
+                <option value="Dom i ogród">Dom i ogród</option>
+                <option value="Supermarket">Supermarket</option>
+                <option value="Dziecko">Dziecko</option>
+                <option value="Uroda">Uroda</option>
+              </select>
+            </form>
             <button class="search-btn">Szukaj</button>
           </article>
 
           <article class="icons-section">
-            <img src="./IMG/header/truck.svg" alt="Dostawa" />
-            <img src="IMG/header/heart.svg" alt="Zapisane" />
+            <a
+              href="https://allegro.pl/logowanie?dd_referrer=https%3A%2F%2Fallegro.pl%2F"
+              ><img src="./IMG/header/truck.svg" alt="Dostawa"
+            /></a>
+            <a
+              href="https://allegro.pl/logowanie?dd_referrer=https%3A%2F%2Fallegro.pl%2F"
+              ><img src="IMG/header/heart.svg" alt="Zapisane"
+            /></a>
             <img src="IMG/header/chat.svg" alt="Wiadomości" />
             <img src="IMG/header/bag.svg" alt="Powiadomienia" />
-            <img src="IMG/header/user.svg" alt="Koszyk" />
+            <a href="https://allegro.pl/koszyk">
+              <img src="IMG/header/user.svg" alt="Koszyk"
+            /></a>
           </article>
 
           <article class="accessibility">
@@ -68,7 +81,7 @@
 
       <section>
         <article class="usefull-links">
-          Kategorie
+          Kategorie<img src="/IMG/header/arrowhead.svg" />
           <img src="/IMG/header/flame.svg" alt="Egro Days" />Egro Days
           <img src="IMG/header/umbrella.svg" alt="Egro Protect" />Egro Protect
           <img src="IMG/header/low price.svg" alt="Guarantee" />Gwarancja
